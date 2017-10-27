@@ -1,3 +1,21 @@
+## Deployment (Heroku)
+
+After confirming that you have an up to date git repository and a Heroku app created, complete the following:
+
+1. Build the React app for production by running the following command:
+
+```
+yarn build
+```
+
+2. Add and commit all changes to git
+
+3. Push to Heroku
+
+4.Add a MongoLab Addon for the React Reading List Heroku app.(for mongoDB)
+
+If all previous steps were followed correctly, your application should be deployed to Heroku!
+
 # Create React Express App
 
 Live website: https://gentle-cove-55245.herokuapp.com/
@@ -27,18 +45,4 @@ yarn start
 
 That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
 
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
-
-1. Build the React app for production by running the following command:
-
-```
-yarn build
-```
-
-2. Add and commit all changes to git
-
-3. Push to Heroku
-
-If all previous steps were followed correctly, your application should be deployed to Heroku!
